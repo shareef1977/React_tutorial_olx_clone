@@ -16,7 +16,7 @@ function Posts() {
       const allPost = snapshot.docs.map((product)=>{
         return {
           ...product.data(),
-          id:product.id
+          id:product.id     
 
         }
       })
